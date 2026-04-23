@@ -16,5 +16,6 @@ A place to save, manage and share my notes, academic writings and exercises. The
 > Each of the three directories has its own `README.md` as Index to quickly scheme through its content.
 
 ## Notes
-1. If you find any mistakes, *please* let me know, either through a PR or to my [mail](mailto:ain.bc@proton.me).
+1. If you find any mistakes, *please* let me know, either through a PR or to my [mail](mailto:ain.bc@proton.me)(ain.bc@proton.me). *Take into account (spelling and grammar-wise) that some documents are not expected to be as clean as others.*
 2. Feel free to read, fork and reference this repo, but **always** with proper citation or *at least* credit.
+3. For more information about my workflow, you can check my [**dotfiles**](https://github.com/0kron/dotfiles).
