@@ -1,0 +1,36 @@
+#import "../lib/conf.typ": conf
+#import "../lib/templates.typ": counter_conf
+
+// Initial Config
+#let name = "Curso Intermedio de Teoría de Conjuntos"
+#let sname = "Conjuntos II"
+#let authors = (
+    (
+      name: "Ain Bolaños Cortés",
+      affiliation: "Universidad Panamericana", 
+      email: "ain.bc@proton.me",
+    ),
+)
+#let abstract = []
+
+// Set functions
+#set document(
+  date: auto,
+  title: [#name],
+)
+
+#show: conf.with(
+  title: [#name],
+  subtitle: [#sname],
+  authors: authors,
+  abstract: abstract,
+)
+#show: counter_conf
+
+// Main document
+#include "./sections/01-chp.typ"
+
+#pagebreak()
+#include "./sections/02-chp.typ"
+
+
