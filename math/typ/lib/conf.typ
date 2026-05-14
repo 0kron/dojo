@@ -46,7 +46,7 @@
     }
   )
   pagebreak()
-  outline(depth: 2)
+  outline(depth: 2, title: [Contenido])
   pagebreak()
 
   doc
