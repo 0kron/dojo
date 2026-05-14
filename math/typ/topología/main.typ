@@ -8,7 +8,7 @@
     (
       name: "Ain Bolaños Cortés",
       affiliation: "Universidad Panamericana", 
-      email: "ain.bc@proton.me",
+      email: "0267980@up.edu.mx",
     ),
 )
 #let abstract = []

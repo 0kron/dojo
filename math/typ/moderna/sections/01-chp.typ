@@ -85,6 +85,7 @@ Desde ya hace tiempo hemos visto el término _campo_ cuando hablamos en matemát
 
 Con esto, el primer campo que llega a la mente es el de toda la vida, el gran, único e inigualable $RR$, en conjunto con la suma y la multiplicación de toda la vida.
 
+
 Además, como lo dijimos en el punto pasado, para tener un grupo con matrices, debemos forzar a que estas sean invertibles, y claramente no se cumplirá la conmutatividad (_no abelianos_) cuando no se toman en cuenta casos triviales simétricos. Entonces, ahora sí, presentando a los *Grupos generales lineales de orden $n$*:
 
 $ G L_n\(RR\) := { A in M_(n times n) \(RR\): det(A) != 0} \ \(G L_n \(RR\), dot, I_n\), " es grupo" $

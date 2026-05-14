@@ -91,7 +91,7 @@
   )[
     #set align(left)
     #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
-      #print-num-box(thm-c, "Theorem.", teal, name: name) \
+      #print-num-box(thm-c, "Teorema.", teal, name: name) \
       #body
     ]
   ]
@@ -130,7 +130,7 @@
   )[
     #set align(left)
     #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
-      #print-num-box(cor-c, "Corollary.", lavender, name: name) \
+      #print-num-box(cor-c, "Corollary.", amber, name: name) \
       #body
     ]
   ]
@@ -172,7 +172,7 @@
     #set align(left)
     #rect(stroke: graphite, width: 100%, inset: (left: 1em, right: 1em))[
       #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
-        #print-num-box(proof-c, [_Proof._], graphite) \
+        #print-num-box(proof-c, [_Prueba._], graphite) \
         #body
         #align(right, $square.filled$)
       ]
@@ -187,7 +187,7 @@
   )[
     #set align(left)
     #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
-      #print-num-box(lem-c, "Lemma.", amber, name: name) \
+      #print-num-box(lem-c, "Lema.", lavender, name: name) \
       #body
     ]
   ]
@@ -195,12 +195,12 @@
 
 #let ex(name, body) = {
   figure(
-    supplement: "Exercise.",
+    supplement: "Ejercicio.",
     numbering: "1.1",
   )[
     #set align(left)
     #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
-      #print-num-box(ex-c, "Exercise.", burgundy, name: name) \
+      #print-num-box(ex-c, "Ejercicio.", burgundy, name: name) \
       #body
     ]
   ]
