@@ -1,9 +1,9 @@
 #import "../lib/conf.typ": conf
-#import "../lib/templates.typ": counter_conf
+#import "../lib/templates.typ": *
 
 // Initial Config
-#let name = "Introducción a la Topología"
-#let sname = "Topología I"
+#let sname = "Estadística Descriptiva"
+#let name = "Media y Mediana"
 #let authors = (
     (
       name: "Ain Bolaños Cortés",
@@ -27,14 +27,13 @@
 )
 #show: counter_conf
 
-// Main document
 #include "./sections/01-chp.typ"
-
 #pagebreak()
 #include "./sections/02-chp.typ"
-
 #pagebreak()
-#include "./sections/03-chp.typ"
 
-#pagebreak()
-#include "./sections/04-chp.typ"
+= Bibliografía
+#linebreak()
+- Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2012). Probabilidad y estadística para ingeniería y ciencias (9.ª ed.). Pearson.
+
+- Vázquez Alamilla, J., Naranjo Albarrán, L., Fuentes García, R., & Chávez Cano, M. (2019). Inferencia estadística para estudiantes de ciencias (1.ª ed.). Universidad Nacional Autónoma de México, Facultad de Ciencias.

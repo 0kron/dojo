@@ -165,19 +165,12 @@
 }
 
 #let proof(body) = {
-  figure(
-    supplement: "Proof",
-    numbering: "1.1",
-  )[
-    #set align(left)
-    #rect(stroke: graphite, width: 100%, inset: (left: 1em, right: 1em))[
-      #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
-        #print-num-box(proof-c, [_Prueba._], graphite) \
-        #body
-        #align(right, $square.filled$)
-      ]
-    ]
-  ]
+    set align(left)
+      line(length: 100%, stroke: 1pt + moss)
+      print-num-box(proof-c, [_Prueba._], graphite) 
+      body
+      align(right, $square.filled$)
+      line(length: 100%, stroke: 1pt + moss)
 }
 
 #let lem(name, body) = {
@@ -201,20 +194,20 @@
     #set align(left)
     #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
       #print-num-box(ex-c, "Ejercicio.", burgundy, name: name) \
-      #body
     ]
+    #body
   ]
 }
 
 #let ej(name, body) = {
   figure(
-    supplement: "Example.",
+    supplement: "Ejemplo.",
     numbering: "1.1",
   )[
     #set align(left)
     #rect(stroke: navy, width: 100%, inset: (left: 1em, right: 1em))[
       #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
-        #print-num-box(ej-c, "Example.", navy, name: name) \
+        #print-num-box(ej-c, "Ejemplo.", navy, name: name) \
         #body
       ]
     ]
@@ -245,24 +238,17 @@
   )
 }
 
-#let code(name, lang: "python", output: none, body) = {
+#let code(name, body) = {
   figure(
     supplement: "Code",
     numbering: "1.1",
   )[
     #set align(left)
-    #box(inset: (top: 0.6em, bottom: 0.4em))[
-      #print-num-box(code-c, "Code.", charcoal, name: name) \
-      #block(
-        if output != none {
-          raw(body, lang: lang, block: true)
-          v(0.2em)
-          text(weight: "bold")[→ `stdout:`]
-          raw(output, lang: lang, block: true)
-        } else {
-          raw(body, lang: lang, block: true)
-        }
-      )
+    #rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
+      #box(inset: (top: 0.6em, bottom: 0.4em))[
+        #print-num-box(code-c, "Código.", charcoal, name: name) \
+        #body
+      ]
     ]
   ]
 }

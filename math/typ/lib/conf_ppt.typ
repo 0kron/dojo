@@ -14,11 +14,14 @@
     ),
     // margin: (x:1.8cm, y: 1.5cm),
     numbering: "1",
+    flipped: true,
+    // background: black,
+    // foreground: white,
   )
   set heading(numbering: "1.")
   set text(
     font: "New Computer Modern",
-    size: 9.5pt,
+    size: 20pt,
   )
   set par(justify: true)
   // ---------------------------------
@@ -28,8 +31,8 @@
     //scope: "parent",
     {
       align(horizon+center)[
-        #text(size: 30pt)[*#title*] \ 
-        #text(size: 20pt)[*#subtitle*] \
+        #text(size: 48pt)[*#title*] \ 
+        #text(size: 32pt)[*#subtitle*] \
       ]
 
       let count = authors.len()
