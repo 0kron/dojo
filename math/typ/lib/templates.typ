@@ -15,6 +15,7 @@
 #let def-c  = counter("def")
 #let prop-c = counter("prop")
 #let cor-c  = counter("cor")
+#let obs-c  = counter("obs")
 #let lem-c  = counter("lem")
 #let af-c   = counter("af")
 #let note-c = counter("note")
@@ -30,6 +31,7 @@
     def-c.step(level: 1)
     prop-c.step(level: 1)
     cor-c.step(level: 1)
+    obs-c.step(level: 1)
     lem-c.step(level: 1)
     af-c.step(level: 1)
     note-c.step(level: 1)
@@ -69,110 +71,184 @@
   ]
 }
 
-#let thm(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(thm-c, "Theorem.", teal, name: name) \
-    #body
+#let def(name, label: none, body) = {
+  figure(
+    supplement: "Def.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(def-c, "Def.", sage, name: name) \
+      #body
+    ]
   ]
 }
 
-#let def(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(def-c, "Def.", sage, name: name) \
-    #body
+#let thm(name, body) = {
+  figure(
+    supplement: "Theorem.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(thm-c, "Teorema.", teal, name: name) \
+      #body
+    ]
   ]
 }
 
 #let prop(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(prop-c, "Prop.", slate, name: name) \
-    #body
+  figure(
+    supplement: "Prop.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(prop-c, "Prop.", slate, name: name) \
+      #body
+    ]
   ]
 }
 
 #let af(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(af-c, "Aff.", rust, name: name) \
-    #body
+  figure(
+    supplement: "Aff.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(af-c, "Aff.", rust, name: name) \
+      #body
+    ]
   ]
 }
 
 #let cor(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(cor-c, "Corollary.", lavender, name: name) \
-    #body
+  figure(
+    supplement: "Corollary.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(cor-c, "Corollary.", amber, name: name) \
+      #body
+    ]
+  ]
+}
+
+#let obs(name, body) = {
+  figure(
+    supplement: "Obs.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(obs-c, "Obs.", lavender, name: name) \
+      #body
+    ]
   ]
 }
 
 #let note(body) = {
-  rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
-    #box(inset: (top: 0.6em, bottom: 0.6em))[
-    #print-num-box(note-c, "Note.", moss) \
-    #body
-  ]]
+  figure(
+    supplement: "Note",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
+      #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
+        #print-num-box(note-c, "Note.", moss) \
+        #body
+      ]
+    ]
+  ]
 }
 
 #let proof(body) = {
-  rect(stroke: graphite, width: 100%, inset: (left: 1em, right: 1em))[
-    #box(inset: (top: 0.6em, bottom: 0.6em))[
-    #print-num-box(proof-c, [_Proof._], graphite) \
-    #body
-    #align(right, $square.filled$)
-  ]]
+    set align(left)
+      line(length: 100%, stroke: 1pt + moss)
+      print-num-box(proof-c, [_Prueba._], graphite) 
+      body
+      align(right, $square.filled$)
+      line(length: 100%, stroke: 1pt + moss)
 }
 
 #let lem(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(lem-c, "Lemma.", amber, name: name) \
-    #body
+  figure(
+    supplement: "Lemma.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(lem-c, "Lema.", lavender, name: name) \
+      #body
+    ]
   ]
 }
 
 #let ex(name, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(ex-c, "Exercise.", burgundy, name: name) \
+  figure(
+    supplement: "Ejercicio.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #box(inset: (top: 0.6em, bottom: 0.4em), width: 100%)[
+      #print-num-box(ex-c, "Ejercicio.", burgundy, name: name) \
+    ]
     #body
   ]
 }
 
 #let ej(name, body) = {
-  rect(stroke: navy, width: 100%, inset: (left: 1em, right: 1em))[
-    #box(inset: (top: 0.6em, bottom: 0.6em))[
-    #print-num-box(ej-c, "Example.", navy, name: name) \
-    #body
-  ]]
+  figure(
+    supplement: "Ejemplo.",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #rect(stroke: navy, width: 100%, inset: (left: 1em, right: 1em))[
+      #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
+        #print-num-box(ej-c, "Ejemplo.", navy, name: name) \
+        #body
+      ]
+    ]
+  ]
 }
 
 #let rmk(body) = {
-  rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
-    #box(inset: (top: 0.6em, bottom: 0.6em))[
-    #print-num-box(note-c, "Remark.", moss)
-    #body
-  ]]
+  figure(
+    supplement: "Remark",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
+      #box(inset: (top: 0.6em, bottom: 0.6em), width: 100%)[
+        #print-num-box(note-c, "Remark.", moss) \
+        #body
+      ]
+    ]
+  ]
 }
 
 #let graf(img-src, caption: none, width: 100%) = {
   figure(
     image(img-src, width: width),
     caption: caption,
+    supplement: "Figure",
+    numbering: "1.1",
   )
 }
 
-#let code(name, lang: "python", output: none, body) = {
-  box(inset: (top: 0.6em, bottom: 0.4em))[
-    #print-num-box(ex-c, "Code.", charcoal, name: name) \
-    #block(
-    //inset: 0.2em,
-    {
-      if output != none {
-        raw(body, lang: lang, block: true)
-        v(0.2em)
-        text(weight: "bold")[→ `stdout:`]
-        raw(output, lang: lang, block: true)
-      } else {
-        raw(body, lang: lang, block: true)
-      }
-    }
-  )
+#let code(name, body) = {
+  figure(
+    supplement: "Code",
+    numbering: "1.1",
+  )[
+    #set align(left)
+    #rect(stroke: moss, width: 100%, inset: (left: 1em, right: 1em))[
+      #box(inset: (top: 0.6em, bottom: 0.4em))[
+        #print-num-box(code-c, "Código.", charcoal, name: name) \
+        #body
+      ]
+    ]
   ]
 }

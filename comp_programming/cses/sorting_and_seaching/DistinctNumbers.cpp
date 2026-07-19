@@ -2,9 +2,10 @@
 using namespace std; 
 
 /*
-Este problema tiene dos vías obvias: 
-1. Abusar el funcionamiento de una estructura como Map o Set, O(nlog n). (agregar valores toma log (n)). 
-2. Sortear los números dados y devolver los cambios al leerlo lineal, O(nlog n). 
+* Distinct Numbers: Given n integers, give the number of distinct numbers 
+* given. So we can just abuse the functionality of cpp's maps, with access
+* time of O(log n).
+*
 */
 
 const int MAXN = 1e9 +1; 
