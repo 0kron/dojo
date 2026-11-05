@@ -1,0 +1,25 @@
+services:
+  jazzy-desktop-full:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jazzy-desktop-full
+    container_name: jazzy
+    network_mode: host
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
+      - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+      - QT_QPA_PLATFORM=xcb
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/root/.Xauthority
+    volumes:
+      - ./ros_ws:/workspace/ros_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR}
+      - ${HOME}/.Xauthority:/root/.Xauthority:ro
+      - /dev/dri:/dev/dri
+    working_dir: /workspace/ros_ws
+    command: bash
