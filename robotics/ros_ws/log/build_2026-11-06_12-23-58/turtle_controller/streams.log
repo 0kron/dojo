@@ -1,0 +1,37 @@
+[0.626s] Invoking command in '/workspace/ros_ws/src/turtle_controller': PYTHONPATH=/workspace/ros_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /workspace/ros_ws/build/turtle_controller/build install --record /workspace/ros_ws/build/turtle_controller/install.log --install-scripts $base/lib/turtle_controller --single-version-externally-managed install_data
+[0.852s] running egg_info
+[0.852s] creating ../../build/turtle_controller/turtle_controller.egg-info
+[0.867s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.867s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.868s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.868s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.868s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] creating /workspace/ros_ws/build/turtle_controller/build
+[0.900s] creating /workspace/ros_ws/build/turtle_controller/build/lib
+[0.900s] creating /workspace/ros_ws/build/turtle_controller/build/lib/turtle_controller
+[0.900s] copying turtle_controller/turtle_controller.py -> /workspace/ros_ws/build/turtle_controller/build/lib/turtle_controller
+[0.900s] copying turtle_controller/__init__.py -> /workspace/ros_ws/build/turtle_controller/build/lib/turtle_controller
+[0.900s] running install
+[0.906s] running install_lib
+[0.922s] creating /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.922s] copying /workspace/ros_ws/build/turtle_controller/build/lib/turtle_controller/turtle_controller.py -> /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.922s] copying /workspace/ros_ws/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.922s] byte-compiling /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/turtle_controller.py to turtle_controller.cpython-312.pyc
+[0.923s] byte-compiling /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/__init__.py to __init__.cpython-312.pyc
+[0.923s] running install_data
+[0.923s] creating /workspace/ros_ws/install/turtle_controller/share/ament_index
+[0.923s] creating /workspace/ros_ws/install/turtle_controller/share/ament_index/resource_index
+[0.923s] creating /workspace/ros_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[0.923s] copying resource/turtle_controller -> /workspace/ros_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[0.923s] copying package.xml -> /workspace/ros_ws/install/turtle_controller/share/turtle_controller
+[0.923s] running install_egg_info
+[0.940s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller-0.0.0-py3.12.egg-info
+[0.940s] running install_scripts
+[1.044s] Installing turtle_circles script to /workspace/ros_ws/install/turtle_controller/lib/turtle_controller
+[1.044s] writing list of installed files to '/workspace/ros_ws/build/turtle_controller/install.log'
+[1.066s] Invoked command in '/workspace/ros_ws/src/turtle_controller' returned '0': PYTHONPATH=/workspace/ros_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /workspace/ros_ws/build/turtle_controller/build install --record /workspace/ros_ws/build/turtle_controller/install.log --install-scripts $base/lib/turtle_controller --single-version-externally-managed install_data

@@ -11,7 +11,7 @@ services:
     environment:
       - DISPLAY=${DISPLAY}
       - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
-      - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+      - XDG_RUNTIME_DIR=/run/user/1000
       - QT_QPA_PLATFORM=xcb
       - QT_X11_NO_MITSHM=1
       - XAUTHORITY=/root/.Xauthority

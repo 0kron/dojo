@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000200] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000230] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099479] (-) TimerEvent: {}
+[0.199692] (-) TimerEvent: {}
+[0.299905] (-) TimerEvent: {}
+[0.400114] (-) TimerEvent: {}
+[0.500304] (-) TimerEvent: {}
+[0.600487] (-) TimerEvent: {}
+[0.670863] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/workspace/ros_ws/build/my_py_pkg/build', 'install', '--record', '/workspace/ros_ws/build/my_py_pkg/install.log', '--install-scripts', '$base/lib/my_py_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/ros_ws/src/my_py_pkg', 'env': {'TMUX': '/tmp/tmux-0/default,180,0', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'macbook', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws', 'TERM_PROGRAM_VERSION': '3.4', 'ROS_PYTHON_VERSION': '3', 'P9K_TTY': 'old', 'ROS_STATIC_PEERS': '127.0.0.1', 'ZPFX': '/root/.local/share/zinit/polaris', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'wayland-1', 'LOGNAME': 'root', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'ROS_VERSION': '2', 'TERM': 'tmux-256color', 'PMSPEC': '0uUpiPsf', 'QT_X11_NO_MITSHM': '1', 'ZSH_CACHE_DIR': '/root/.cache/zinit', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.local/share/zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/root/.Xauthority', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/zsh', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspace/ros_ws/build/my_py_pkg', 'QT_QPA_PLATFORM': 'xcb', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/workspace/ros_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Mexico_City', 'COLCON': '1', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.700582] (-) TimerEvent: {}
+[0.800807] (-) TimerEvent: {}
+[0.901005] (-) TimerEvent: {}
+[0.911560] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.927752] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.927981] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.928142] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.928257] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.928349] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.960563] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.961153] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.961254] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.961345] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.961505] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_counter.py -> /workspace/ros_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.961723] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.967113] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.982881] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.983334] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc\n'}
+[0.983772] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.983952] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.001181] (-) TimerEvent: {}
+[1.002944] (my_py_pkg) StdoutLine: {'line': b"removing '/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.003268] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[1.004171] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101270] (-) TimerEvent: {}
+[1.114703] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.114912] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.115057] (my_py_pkg) StdoutLine: {'line': b'Installing test_node script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.115169] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/workspace/ros_ws/build/my_py_pkg/install.log'\n"}
+[1.146582] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.158775] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.159525] (-) EventReactorShutdown: {}

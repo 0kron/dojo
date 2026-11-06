@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000112] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000129] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000145] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.007461] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.008545] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.008573] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/workspace/ros_ws/build/my_robot_interfaces', 'env': OrderedDict({'TMUX': '/tmp/tmux-0/default,541,0', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'macbook', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src/my_robot_interfaces/msg', 'TERM_PROGRAM_VERSION': '3.4', 'ROS_PYTHON_VERSION': '3', 'P9K_TTY': 'old', 'ROS_STATIC_PEERS': '127.0.0.1', 'ZPFX': '/root/.local/share/zinit/polaris', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'wayland-1', 'LOGNAME': 'root', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/2', 'ROS_VERSION': '2', 'TERM': 'tmux-256color', 'PMSPEC': '0uUpiPsf', 'QT_X11_NO_MITSHM': '1', 'ZSH_CACHE_DIR': '/root/.cache/zinit', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.local/share/zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/root/.Xauthority', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/zsh', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspace/ros_ws/build/my_robot_interfaces', 'QT_QPA_PLATFORM': 'xcb', '_P9K_TTY': '/dev/pts/2', 'PYTHONPATH': '/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Mexico_City', 'COLCON': '1', 'TMUX_PANE': '%6', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.028054] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099562] (-) TimerEvent: {}
+[0.198749] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.199658] (-) TimerEvent: {}
+[0.200871] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.231973] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.260115] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.299754] (-) TimerEvent: {}
+[0.399995] (-) TimerEvent: {}
+[0.485743] (my_robot_interfaces) StderrLine: {'line': b"Error parsing '/workspace/ros_ws/src/my_robot_interfaces/package.xml':\n"}
+[0.485883] (my_robot_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.485946] (my_robot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.486590] (my_robot_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.486693] (my_robot_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.486753] (my_robot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString\n'}
+[0.487579] (my_robot_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.487670] (my_robot_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.487756] (my_robot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[0.488022] (my_robot_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.488111] (my_robot_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.488173] (my_robot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[0.488298] (my_robot_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.488382] (my_robot_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 13, column 46\n'}
+[0.488443] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.488500] (my_robot_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.488555] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.488607] (my_robot_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.488659] (my_robot_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.488713] (my_robot_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.488781] (my_robot_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.488834] (my_robot_interfaces) StderrLine: {'line': b'    raise e\n'}
+[0.488895] (my_robot_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.488948] (my_robot_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.489000] (my_robot_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.489052] (my_robot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.489104] (my_robot_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.489156] (my_robot_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/workspace/ros_ws/src/my_robot_interfaces/package.xml':\n"}
+[0.489225] (my_robot_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.489275] (my_robot_interfaces) StderrLine: {'line': b'mismatched tag: line 13, column 46\n'}
+[0.499162] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.499326] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.499487] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.499576] (my_robot_interfaces) StderrLine: {'line': b'  /workspace/ros_ws/src/my_robot_interfaces/package.xml\n'}
+[0.499637] (my_robot_interfaces) StderrLine: {'line': b'  /workspace/ros_ws/build/my_robot_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.499692] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.499746] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.499800] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.499853] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[0.499906] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[0.499958] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.500009] (-) TimerEvent: {}
+[0.500070] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.500146] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.503166] (my_robot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.504426] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[0.504639] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[0.515097] (-) EventReactorShutdown: {}

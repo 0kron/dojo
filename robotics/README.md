@@ -31,7 +31,7 @@ And clearly, it is dependent on which language you choose.
 To create a package, you must be inside the `workspace`'s `src/` directory and
 run: 
 ```bash
-ros2 pkg create <pkg_name> --build_type ament_<language (python, cmake)>
+ros2 pkg create <pkg_name> --build-type ament_<language (python, cmake)>
 --dependencies <list of dependencies separeted with spaces>
 ```
 
@@ -152,4 +152,199 @@ if __name__ == '__main__':
 
 
 ## Introspecting Nodes 
+
+> Para el correcto funcionamiento de la introspección de nodos desde un 
+contenedor de docker, se debe agregar a los peers de ros el localhost: 
+> `export ROS_STATIC_PEERS=127.0.0.1`
+
+It is possible to list all the current active nodes inside our ROS 2 framework:
+```bash 
+ros2 node list
+```
+
+And see details of an specific node by: 
+```bash 
+ros2 node info <node_name>
+```
+
+---
+
+## Topics
+### Publishers
+
+In ROS 2, you do not create a topic, you create a publisher to a topic, and that
+creates the topic. Therefore, there are two cases: 
+
+1. The node publishes to an already existing topic, using its name and interface.
+2. The node publishes to a new topic, choosing a name and interface.
+
+If it's the latter, the following line must be inside the node's constructor: 
+```python
+   self.number_publisher = self.create_publisher(Int64, "number", 10)
+```
+Where the parameters are respectively: **Interface**, **topic name**, **queue 
+size**. The last one means how many data is going to be saved in the buffer for
+the suscribers to not loose information. Recomended 10 spaces on the buffer.
+
+As you create a publisher, that object has its parent's function `.publish`. 
+That recives a message with the same interface as the publisher and publishes it.
+
+Example: 
+```python
+    def publish_number(self):
+        msg = Int64()
+        msg.data = self.number_
+        self.number_publisher_.publish(msg)
+        self.number_ += 1
+```
+
+Where `self.number_publisher_` was created with the `self.create_publisher`
+method.
+
+As we are using `Int64` that is part of the `example_interfaces` we use it as a
+dependency on both python: 
+```python
+from example_interfaces.msg import Int64
+```
+
+And in our `package.xml` file: 
+```xml
+  <depend>rclpy</depend>
+  <depend>example_interfaces</depend>
+```
+
+### Introspecting topics 
+
+First to see all topics available we have the next command: 
+```bash
+ros2 topic list
+```
+
+To inspect a topics interface, publisher count and suscription count: 
+```bash
+ros2 topic info <topic_name>
+```
+
+And to see its content in real time: 
+```bash
+ros2 topic echo <topic_name>
+```
+
+GUI Graph of interactions inside Ros 2 (may require reloads): 
+```bash 
+rqt_graph
+```
+
+> As soon as the topic does not have any publishes it ceases to exist.
+
+### Subscribers
+
+The process of creating a subscriber, is almost identical to that of the 
+publisher. It is mandatory to also include the interface as a dependency, and 
+the creation of a subscription is as follows: 
+```python
+  self.number_subscriber = self.create_subscription(
+       Int64,
+       "number",
+       self.callback_number,
+       10
+  )
+```
+
+With the parameters: **interface**, **topic name**, **callback function** and 
+**queue size**. 
+
+The callback is a function that will automatically be executed as soon as a new
+data is placed inside the topic attached to the suscription. And we must 
+implement it: 
+```python 
+def callback_number(self, msg: Int64):
+    self.counter_ += 1
+    self.sum_ += msg.data
+    self.get_logger().info("Counter: "+str(self.counter_)
+                           + "\nSum: "+str(self.sum_))
+```
+
+
+## Interfaces 
+
+Common interfaces: [https://github.com/ros2/common_interfaces](https://github.com/ros2/common_interfaces). 
+
+To install new interfaces: 
+```bash 
+sudo apt install ros-$ROS_DISTRO-<package-name>
+```
+
+For example:
+```bash 
+sudo apt install ros-jazzy-sensor-msgs
+```
+To have access to the `Image.msg` interface so as to have camera output.
+
+### Creating Interfaces
+
+First create a new package with the `cmake` type build, which is the build by 
+default: 
+```bash 
+cd ros_ws/src/
+ros2 pkg create <name>_interfaces
+cd <name>_interfaces 
+rm -r src include 
+mkdir msg
+```
+
+And edit the `xml` file to have the following lines after the `ament_cmake`: 
+```xml
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+And edit the `cmake` file to have the following lines between `find_package()`
+and `if(BUILD_TESTING)`: 
+```cmake 
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+        # we will add the name of our costom interfaces here with no separation
+        # comma between the names. 
+        # msg/<interface-name>.msg
+)
+ament_export_dependencies(rosidl_default_runtime)
+```
+
+- **Rules of naming interfaces**: 
+    - UpperCammelCase
+    - No "Msg" nor "Interface"
+    - Extension must be: `.msg`
+
+Creating a new interface then is as simple as: 
+```bash 
+cd msg 
+touch <new-interface>.msg
+```
+
+It is possible to use `builtin` types as `bool`, `byte`, `int64`, `float64` and
+`string`. As well as other message types, for example `goemetry_msgs/Twist`. 
+
+Complete list of interfaces: [Here](https://docs.ros.org/en/rolling/ROS-Framework/interfaces/About-Interfaces.html#field-types)
+
+Example inside `HardwareStatus.msg`: 
+```msg
+int64 version
+float64 temperature
+bool are_motors_ready
+string debug_message
+```
+
+Finally, you only have to `colcon build` the interface package and source the
+workspace.
+
+> To use this interfaces in the code will be as with any other interface: 
+Adding the <package-name> to the `.xml` file, and import it in Python as: 
+`from <package-name>.msg import <interface-name>`.
+
+Every different data point in the interface may be accessible as an object 
+attribute. For example `HardwareStatus.temperature`.
+
 

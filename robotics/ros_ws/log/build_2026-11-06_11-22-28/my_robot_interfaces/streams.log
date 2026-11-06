@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/workspace/ros_ws/build/my_robot_interfaces': /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.199s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.260s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.486s] Error parsing '/workspace/ros_ws/src/my_robot_interfaces/package.xml':
+[0.486s] Traceback (most recent call last):
+[0.486s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.487s]     root = dom.parseString(data)
+[0.487s]            ^^^^^^^^^^^^^^^^^^^^^
+[0.487s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[0.488s]     return expatbuilder.parseString(string)
+[0.488s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.488s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[0.488s]     return builder.parseString(string)
+[0.488s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.488s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[0.488s]     parser.Parse(string, True)
+[0.488s] xml.parsers.expat.ExpatError: mismatched tag: line 13, column 46
+[0.488s] 
+[0.488s] During handling of the above exception, another exception occurred:
+[0.488s] 
+[0.488s] Traceback (most recent call last):
+[0.489s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.489s]     main()
+[0.489s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.489s]     raise e
+[0.489s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.489s]     package = parse_package_string(
+[0.489s]               ^^^^^^^^^^^^^^^^^^^^^
+[0.489s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.489s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.489s] catkin_pkg.package.InvalidPackage: Error(s) in package '/workspace/ros_ws/src/my_robot_interfaces/package.xml':
+[0.489s] The manifest contains invalid XML:
+[0.489s] mismatched tag: line 13, column 46
+[0.499s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.499s]   execute_process(/usr/bin/python3
+[0.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.499s]   /workspace/ros_ws/src/my_robot_interfaces/package.xml
+[0.500s]   /workspace/ros_ws/build/my_robot_interfaces/ament_cmake_core/package.cmake)
+[0.500s]   returned error code 1
+[0.500s] Call Stack (most recent call first):
+[0.500s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.500s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[0.500s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.500s] 
+[0.500s] [0m
+[0.500s] -- Configuring incomplete, errors occurred!
+[0.503s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.504s] Invoked command in '/workspace/ros_ws/build/my_robot_interfaces' returned '2': /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8

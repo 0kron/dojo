@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/workspace/ros_ws/build/my_robot_interfaces': /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.202s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.336s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interface):
+[0.336s]   Unknown CMake command "rosidl_generate_interface".
+[0.336s] 
+[0.336s] [0m
+[0.336s] -- Configuring incomplete, errors occurred!
+[0.338s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.340s] Invoked command in '/workspace/ros_ws/build/my_robot_interfaces' returned '2': /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8
