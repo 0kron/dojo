@@ -1,0 +1,26 @@
+[0.632s] Invoking command in '/workspace/ros_ws/src/my_py_pkg': PYTHONPATH=/workspace/ros_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/ros_ws/build/my_py_pkg/build install --record /workspace/ros_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[0.857s] running egg_info
+[0.872s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.872s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.872s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.904s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.905s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.905s] running build_py
+[0.905s] copying my_py_pkg/number_counter.py -> /workspace/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.905s] running install
+[0.911s] running install_lib
+[0.926s] copying /workspace/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.927s] byte-compiling /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[0.927s] running install_data
+[0.928s] running install_egg_info
+[0.944s] removing '/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.944s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.945s] running install_scripts
+[1.048s] Installing number_counter script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[1.048s] Installing number_publisher script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[1.048s] Installing test_node script to /workspace/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[1.049s] writing list of installed files to '/workspace/ros_ws/build/my_py_pkg/install.log'
+[1.070s] Invoked command in '/workspace/ros_ws/src/my_py_pkg' returned '0': PYTHONPATH=/workspace/ros_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/workspace/ros_ws/install/turtle_controller/lib/python3.12/site-packages:/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/ros_ws/build/my_py_pkg/build install --record /workspace/ros_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data

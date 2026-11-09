@@ -1,2 +1,4 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+srv/ResetSum.idl
+srv/ResetSum.srv

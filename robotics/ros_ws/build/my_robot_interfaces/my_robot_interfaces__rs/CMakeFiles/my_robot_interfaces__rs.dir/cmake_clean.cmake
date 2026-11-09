@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/msg.rs"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs"
   "CMakeFiles/my_robot_interfaces__rs"
 )
 

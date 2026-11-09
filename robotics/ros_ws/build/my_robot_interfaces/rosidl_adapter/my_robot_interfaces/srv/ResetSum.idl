@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/ResetSum.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct ResetSum_Request {
+      int64 reset_value;
+    };
+    struct ResetSum_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

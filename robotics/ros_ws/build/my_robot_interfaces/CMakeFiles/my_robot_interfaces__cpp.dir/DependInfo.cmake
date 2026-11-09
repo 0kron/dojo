@@ -17,6 +17,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/reset_sum__builder.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/reset_sum__struct.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/reset_sum__traits.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/reset_sum__type_support.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/reset_sum.hpp" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   )
 
 

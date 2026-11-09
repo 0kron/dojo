@@ -1,1 +1,2 @@
 /workspace/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/workspace/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ResetSum.idl

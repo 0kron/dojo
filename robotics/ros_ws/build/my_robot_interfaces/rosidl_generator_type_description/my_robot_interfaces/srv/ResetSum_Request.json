@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/ResetSum_Request",
+      "fields": [
+        {
+          "name": "reset_value",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/ResetSum_Request",
+      "hash_string": "RIHS01_1e185eb368d7690910b0382d0eff67f94e5e40308060ff55850f82db2a5a1d59"
+    }
+  ]
+}

@@ -16,6 +16,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/build.rs" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/msg.rs" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs" "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs"
   )
 
 

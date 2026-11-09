@@ -1,6 +1,7 @@
 {
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
-    "/workspace/ros_ws/src/my_robot_interfaces:msg/HardwareStatus.msg"
+    "/workspace/ros_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/workspace/ros_ws/src/my_robot_interfaces:srv/ResetSum.srv"
   ]
 }

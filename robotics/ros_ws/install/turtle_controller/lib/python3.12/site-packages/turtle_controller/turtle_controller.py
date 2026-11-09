@@ -5,8 +5,8 @@ from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 
 # Objectives: 
-# - 1. [ ] Turtle Moving in Circles
-# - 2. [ ] Turtle Moving faster on right side
+# - 1. [X] Turtle Moving in Circles
+# - 2. [X] Turtle Moving faster on right side
 
 # Insights: 
 # turtlesim_node creates for every turtle the following topics: 
@@ -15,28 +15,26 @@ from turtlesim.msg import Pose
 # /turtleX/pose -> turtlesim/msg/Pose
 
 ## Interfaces of interest: 
-"""
-1. /turtleX/cmd_vel ==> geometry_msgs/msg/Twist
-# This expresses velocity in free space broken into its linear and angular parts.
-
-Vector3  linear
-        float64 x
-        float64 y
-        float64 z
-Vector3  angular
-        float64 x
-        float64 y
-        float64 z
-
-
-2. /turtleX/pose ==> turtlesim/msg/Pose
-float32 x
-float32 y
-float32 theta
-
-float32 linear_velocity
-float32 angular_velocity
-"""
+# 1. /turtleX/cmd_vel ==> geometry_msgs/msg/Twist
+# # This expresses velocity in free space broken into its linear and angular parts.
+# 
+# Vector3  linear
+#         float64 x
+#         float64 y
+#         float64 z
+# Vector3  angular
+#         float64 x
+#         float64 y
+#         float64 z
+# 
+# 
+# 2. /turtleX/pose ==> turtlesim/msg/Pose
+# float32 x
+# float32 y
+# float32 theta
+# 
+# float32 linear_velocity
+# float32 angular_velocity
 
 class TurtleController(Node): 
     def __init__(self):

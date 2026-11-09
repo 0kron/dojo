@@ -232,4 +232,9 @@ CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_
  /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h \
  /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
- /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h
+ /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
+ /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_sum__type_support.h \
+ /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_sum__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_sum__functions.h

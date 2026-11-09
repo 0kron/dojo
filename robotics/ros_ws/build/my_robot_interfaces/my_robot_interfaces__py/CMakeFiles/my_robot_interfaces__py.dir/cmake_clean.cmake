@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/__init__.py"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py"
   "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_reset_sum.py"
+  "/workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_reset_sum_s.c"
   "CMakeFiles/my_robot_interfaces__py"
 )
 

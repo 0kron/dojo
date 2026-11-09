@@ -71,6 +71,8 @@ include /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMak
 /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/Cargo.toml
 /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/msg.rs
 /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs
+/workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs
+/workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs
 
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py
@@ -85,7 +87,12 @@ rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/ro
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
+rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: rosidl_adapter/my_robot_interfaces/srv/ResetSum.idl
 rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
+rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: rosidl_adapter/my_robot_interfaces/srv/ResetSum.idl
+rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/ros_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
 	cd /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /workspace/ros_ws/build/my_robot_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -101,12 +108,20 @@ rosidl_generator_rs/my_robot_interfaces/rust/src/msg.rs: rosidl_generator_rs/my_
 rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs: rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs
 
+rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs: rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs
+
+rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs: rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs
+
 my_robot_interfaces__rs: /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs
 my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/Cargo.toml
 my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/build.rs
 my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/lib.rs
 my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/msg.rs
 my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/msg/rmw.rs
+my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/srv.rs
+my_robot_interfaces__rs: rosidl_generator_rs/my_robot_interfaces/rust/src/srv/rmw.rs
 my_robot_interfaces__rs: /workspace/ros_ws/build/my_robot_interfaces/my_robot_interfaces__rs/CMakeFiles/my_robot_interfaces__rs.dir/build.make
 .PHONY : my_robot_interfaces__rs
 

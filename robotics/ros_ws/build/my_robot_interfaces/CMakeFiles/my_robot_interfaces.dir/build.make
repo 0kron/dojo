@@ -67,6 +67,8 @@ include CMakeFiles/my_robot_interfaces.dir/compiler_depend.make
 include CMakeFiles/my_robot_interfaces.dir/progress.make
 
 CMakeFiles/my_robot_interfaces: /workspace/ros_ws/src/my_robot_interfaces/msg/HardwareStatus.msg
+CMakeFiles/my_robot_interfaces: /workspace/ros_ws/src/my_robot_interfaces/srv/ResetSum.srv
+CMakeFiles/my_robot_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 my_robot_interfaces: CMakeFiles/my_robot_interfaces
 my_robot_interfaces: CMakeFiles/my_robot_interfaces.dir/build.make

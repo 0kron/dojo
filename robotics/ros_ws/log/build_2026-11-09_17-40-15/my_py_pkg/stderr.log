@@ -1,0 +1,5 @@
+  File "/workspace/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py", line 33
+    def callback_reset_counter(self.request: ResetSum.Request, self.response: ResetCounter.Response): 
+                                   ^
+SyntaxError: invalid syntax
+

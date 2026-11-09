@@ -1,0 +1,285 @@
+[0.014s] Invoking command in '/workspace/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/turtle_controller:/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8
+[0.122s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.261s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.356s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.616s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.057s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.096s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.112s] -- Added test 'lint_cmake' to check CMake code style
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.117s] -- Configuring done (1.0s)
+[1.159s] -- Generating done (0.0s)
+[1.170s] -- Build files have been written to: /workspace/ros_ws/build/my_robot_interfaces
+[1.199s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.199s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.208s] [  4%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.371s] [  4%] Built target my_robot_interfaces__rosidl_generator_type_description
+[1.380s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.391s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.392s] running egg_info
+[1.410s] [  8%] Built target my_robot_interfaces__rs
+[1.415s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.415s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.415s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.475s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.476s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.498s] [  8%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.682s] [  8%] Built target my_robot_interfaces__cpp
+[1.721s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[1.721s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[1.721s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[1.721s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__functions.c.o[0m
+[1.721s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__description.c.o[0m
+[1.721s] [ 22%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[1.828s] [ 24%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[1.871s] [ 24%] Built target my_robot_interfaces__rosidl_generator_c
+[1.879s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.879s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.882s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.882s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.882s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.882s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.104s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[2.104s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.196s] [ 44%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[2.227s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[2.227s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o[0m
+[2.239s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[2.239s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.252s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_c
+[2.282s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp.o[0m
+[2.282s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[2.335s] [ 60%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[2.384s] [ 62%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[2.422s] [ 64%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[2.454s] [ 66%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.497s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[2.510s] [ 68%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/reset_counter__type_support_c.cpp.o[0m
+[2.783s] [ 71%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.852s] [ 73%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.903s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[2.938s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[3.037s] [ 75%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.047s] [ 77%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.116s] [ 77%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.129s] [ 77%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[3.154s] [ 77%] Built target my_robot_interfaces
+[3.181s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.543s] [ 80%] Built target my_robot_interfaces__py
+[3.563s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[3.563s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_reset_counter_s.c.o[0m
+[3.699s] [ 86%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[3.731s] [ 86%] Built target my_robot_interfaces__rosidl_generator_py
+[3.750s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.750s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.750s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.836s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[3.837s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.840s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.860s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[3.860s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[3.865s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.874s] Invoked command in '/workspace/ros_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/turtle_controller:/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/my_robot_interfaces -- -j8 -l8
+[3.882s] Invoking command in '/workspace/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/turtle_controller:/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/my_robot_interfaces
+[3.888s] -- Install configuration: ""
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.json
+[3.889s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.889s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.889s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[3.889s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[3.889s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__description.c
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.h
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.h
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.h
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.c
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.h
+[3.890s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[3.890s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[3.890s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[3.890s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.891s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.891s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.891s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h
+[3.891s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.891s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[3.892s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.892s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h
+[3.892s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[3.892s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[3.892s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[3.893s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[3.893s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.893s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[3.893s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[3.893s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.hpp
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__traits.hpp
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.hpp
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__builder.hpp
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.hpp
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[3.894s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.894s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.895s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.895s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp
+[3.895s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp
+[3.896s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.896s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.896s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[3.896s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.897s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[3.897s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[3.897s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.897s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.897s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[3.897s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter_s.c
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py
+[3.898s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.933s] Listing '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[3.933s] Compiling '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[3.933s] Listing '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[3.934s] Compiling '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...
+[3.934s] Compiling '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...
+[3.934s] Listing '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[3.934s] Compiling '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py'...
+[3.934s] Compiling '/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py'...
+[3.938s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.938s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.938s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.939s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.939s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[3.939s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.939s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[3.940s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[3.940s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/ament_index/resource_index/rust_packages/my_robot_interfaces
+[3.940s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust
+[3.940s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/Cargo.toml
+[3.940s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src
+[3.940s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg.rs
+[3.940s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv.rs
+[3.940s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg
+[3.940s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg/rmw.rs
+[3.940s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/lib.rs
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv/rmw.rs
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/build.rs
+[3.941s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.idl
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.srv
+[3.941s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[3.941s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[3.941s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[3.941s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[3.942s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[3.942s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[3.942s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[3.942s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[3.942s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.942s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.942s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.943s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.943s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[3.943s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.943s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.943s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.944s] -- Old export file "/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.944s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.944s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.945s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[3.945s] -- Up-to-date: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[3.945s] -- Installing: /workspace/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[3.946s] Invoked command in '/workspace/ros_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/turtle_controller:/workspace/ros_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/my_robot_interfaces
