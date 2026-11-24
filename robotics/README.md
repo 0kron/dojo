@@ -243,7 +243,7 @@ The process of creating a subscriber, is almost identical to that of the
 publisher. It is mandatory to also include the interface as a dependency, and 
 the creation of a subscription is as follows: 
 ```python
-  self.number_subscriber = self.create_subscription(
+  self.number_subscriber_ = self.create_subscription(
        Int64,
        "number",
        self.callback_number,

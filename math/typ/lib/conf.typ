@@ -15,7 +15,16 @@
     // margin: (x:1.8cm, y: 1.5cm),
     numbering: "1",
   )
-  set heading(numbering: "1.")
+  set heading(
+    numbering: (..numbers) => {
+      let level = numbers.pos().len()
+      if (level == 1) {
+        return none
+      } else {
+        return numbering("a.", numbers.pos().at(level -1))
+      }
+    }
+  )
   set text(
     font: "New Computer Modern",
     size: 9.5pt,
